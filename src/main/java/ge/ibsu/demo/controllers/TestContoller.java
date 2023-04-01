@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 @RequestMapping("api/test")
 
-public class TestContoller {
+public class TestContoller{
 
     @RequestMapping(value = "/call", method = RequestMethod.GET, produces = {"application/json"})
     public Test ToString()
